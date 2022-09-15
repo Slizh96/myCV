@@ -1,0 +1,23 @@
+.skillsBlock{
+    height: 100vh;
+    background-color: #bebeef;
+    max-height: content-box;
+}
+
+.skillsContainer{
+    flex-direction: column; /*меняем оси*/
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.title{
+    background-color: palegoldenrod;
+}
+
+.skills{
+    border: 1px solid;
+    width: 100%; /*ширина 100про*/
+    display: flex; /*касается дочерних элементов чтобы были в строку*/
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

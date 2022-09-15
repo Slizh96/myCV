@@ -1,0 +1,11 @@
+.projectsBlock{
+    height: 100vh;
+    background-color: #bebeef;
+    max-height: content-box;
+}
+
+.projectsContainer{
+    flex-direction: column; /*меняем оси*/
+    align-items: center;
+    justify-content: flex-start;
+}
