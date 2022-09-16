@@ -1,0 +1,19 @@
+.contacts{
+  height: 50vh;
+    background-color: #eca9ec;
+}
+
+.container{
+    flex-direction: column; /*меняем оси*/
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.title{
+    background-color: palegoldenrod;
+    text-align: center;
+}
+
+.form{
+    border: 1px solid;
+}
