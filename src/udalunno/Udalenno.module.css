@@ -1,0 +1,20 @@
+.udalenno{
+    min-height: 50vh;
+    background-color: #bef0f5;
+
+}
+
+.container{
+    flex-direction: column; /*меняем оси*/
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.title{
+    background-color: palegoldenrod;
+    text-align: center;
+}
+
+.button{
+
+}
