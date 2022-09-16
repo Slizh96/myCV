@@ -1,4 +1,27 @@
 .project {
+    width: 250px;
+    background-color: darkseagreen;
+    display: flex; /*чтобы лучше управлять положением одного скила*/
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /*выравнивает строчные элементы, не работает для див внутри див*/
 
 }
 
+.icon {
+    height: 250px;
+    width: 250px;
+    background-color: darkgoldenrod;
+    position: relative;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 5px;
+    background-color: #918c8c;
+    cursor: pointer;
+}

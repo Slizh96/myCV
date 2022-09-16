@@ -1,6 +1,6 @@
 .projectsBlock{
-    height: 100vh;
-    background-color: #bebeef;
+    min-height: 100vh;
+    background-color: #eca0ec;
     max-height: content-box;
 }
 
@@ -8,4 +8,17 @@
     flex-direction: column; /*меняем оси*/
     align-items: center;
     justify-content: flex-start;
+
+}
+
+.title{
+    background-color: palegoldenrod;
+}
+
+.projects{
+    border: 1px solid;
+    width: 100%; /*ширина 100про*/
+    display: flex; /*касается дочерних элементов чтобы были в строку*/
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
