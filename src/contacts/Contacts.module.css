@@ -1,6 +1,7 @@
 .contacts{
   height: 50vh;
     background-color: #eca9ec;
+
 }
 
 .container{
@@ -16,4 +17,5 @@
 
 .form{
     border: 1px solid;
+    display: grid;
 }

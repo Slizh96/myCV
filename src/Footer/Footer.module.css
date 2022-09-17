@@ -1,0 +1,26 @@
+.footer {
+    height: 20vh;
+    background-color: #918c8c;
+}
+
+.container {
+    flex-direction: column; /*меняем оси*/
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.title {
+    background-color: palegoldenrod;
+    text-align: center;
+}
+
+.icons{
+border: 1px solid;
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.soc{
+    background-color: #eca9ec;
+}
