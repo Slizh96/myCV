@@ -15,7 +15,24 @@
     text-align: center;
 }
 
+/*.form{*/
+/*    border: 1px solid;*/
+/*    display: grid;*/
+/*}*/
+
 .form{
-    border: 1px solid;
-    display: grid;
+    width: 50%;
+    background-color: #918c8c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form input, .form textarea{
+    width: 100%;
+}
+
+.submitnBtn{
+    padding: 10px 20px;
+    background-color: #bebeef;
 }

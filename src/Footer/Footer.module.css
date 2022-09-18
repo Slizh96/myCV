@@ -18,9 +18,16 @@
 border: 1px solid;
     display: flex;
     width: 250px;
+    align-items: center;
     justify-content: space-between;
 }
 
 .soc{
     background-color: #eca9ec;
 }
+
+/*.soc{*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    background-color: #bef0f5;*/
+/*} если в качестве ссылок картинки а не текст*/

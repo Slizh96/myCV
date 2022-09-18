@@ -7,7 +7,7 @@ export const Udalenno = ()=>{
         <div className={s.udalenno}>
             <div className={`${c.container} ${s.container}`}>
                 <h3 className={s.title}>Рассматриваю вариант удаленной работы</h3>
-                <button className={s.button}>Нанять меня</button>
+                <a href='' className={s.button}>Нанять меня</a>
             </div>
         </div>
     )

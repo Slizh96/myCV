@@ -12,7 +12,7 @@ export const Footer = () => {
                     <div className={s.soc}>LinkedIn</div>
                     <div className={s.soc}>GitHub</div>
                 </div>
-                <h5 className={s.title}>2022 Все права защищены</h5>
+                <span className={s.title}>2022 Все права защищены</span>
             </div>
         </div>
     )
