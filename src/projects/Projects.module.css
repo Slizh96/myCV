@@ -13,15 +13,16 @@
 }
 
 .projects {
-    border: 1px solid;
+    /*border: 1px solid;*/
     width: 100%; /*ширина 100про*/
     display: flex; /*касается дочерних элементов чтобы были в строку*/
     justify-content: space-between;
     flex-wrap: wrap;
-    /*margin-top: 30px;*/
+    margin-top: 30px;
+    align-items: flex-start;
 }
 
-@media screen and (max-width: 629px) {
+@media screen and (max-width: 1130px) {
     .projects {
         justify-content: center; /*до 629 это значение дальше обычное*/
     }
