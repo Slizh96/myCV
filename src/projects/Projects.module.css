@@ -1,24 +1,30 @@
-.projectsBlock{
-    min-height: 100vh;
-    background-color: #eca0ec;
-    max-height: content-box;
+.projectsBlock {
+    /*min-height: 100vh;*/
+    background-color: #1f1f20;
+    padding: 100px 0;
+    /*max-height: content-box;*/
 }
 
-.projectsContainer{
+.projectsContainer {
     flex-direction: column; /*меняем оси*/
     align-items: center;
     justify-content: flex-start;
 
 }
 
-.title{
-    background-color: palegoldenrod;
-}
-
-.projects{
+.projects {
     border: 1px solid;
     width: 100%; /*ширина 100про*/
     display: flex; /*касается дочерних элементов чтобы были в строку*/
     justify-content: space-between;
     flex-wrap: wrap;
+    /*margin-top: 30px;*/
 }
+
+@media screen and (max-width: 629px) {
+    .projects {
+        justify-content: center; /*до 629 это значение дальше обычное*/
+    }
+}
+
+/*медиа запрос, при ширине от 0 до 629 применять стили в скобках. изменить нужно в блоке проджектс поэтому указываем его, и в скобках стили которые нужно изменить*/
