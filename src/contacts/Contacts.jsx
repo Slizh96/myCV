@@ -10,9 +10,9 @@ export const Contacts = () => {
                 <Title title='My contacts'/>
                 <form action="" className={s.form}>
                     <input type="text" placeholder='Name'/>
-                    <input type="text" placeholder='e-mail'/>
-                    <textarea placeholder='your message' name="" id="" cols="30" rows="10"></textarea>
-                    <button className={s.submitnBtn} type='submit'>Send</button>
+                    <input type="text" placeholder='E-mail'/>
+                    <textarea placeholder='Your message' name="" id="" cols="30" rows="10"></textarea>
+                    <button className={s.submithBtn} type='submit'>Send</button>
                 </form>
             </div>
         </div>
